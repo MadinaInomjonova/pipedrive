@@ -1,0 +1,50 @@
+.main-section {
+    margin-left: 72px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.deal-btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.deal-btns ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #CACACD;
+    border-radius: 5px;
+}
+.deal-btns ul .list-item {
+    padding: 5px 15px;
+}
+.deal-btns ul .list-item:hover {
+    background-color: #CACACD;
+    transition: .3s all ease;
+}
+.deal-btns ul .list-item:nth-child(2) {
+    border-left: 1px solid #CACACD;
+    border-right: 1px solid #CACACD;
+}
+.deal-btns ul .list-item .MuiSvgIcon-root {
+    font-size: 19px !important;
+}
+
+.deal-btn {
+    background-color: #2D8647;
+    display: flex;
+    align-items: center;
+    border:  1px solid transparent;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    gap: 3px;
+    padding: 8px 10px;
+}
+.deal-btn .MuiSvgIcon-root {
+    font-size: 17px !important;
+}
+

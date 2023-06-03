@@ -1,0 +1,64 @@
+.info {
+    padding: 20px;
+    padding-left: 90px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-header .title {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+
+.info-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.info-right .user-info {
+    display: flex;
+    align-items: center;
+}
+.info-right .user-info .user {
+    margin: 0 10px;
+}
+.info-right .user-info .user p {
+    margin: 0;
+    padding: 0;
+}
+.info-right .user-info .user p:nth-child(2) {
+    color: #696C73;
+}
+.info-right .user-info .MuiSvgIcon-root {
+    color: #696C73;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E0E0E1;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+.won {
+    background-color: #2D8647;
+    color: #fff;
+    padding: 7px 15px;
+}
+.lost {
+    background-color: #D83C38;
+    color: #fff;
+    padding: 7px 15px;
+}
+

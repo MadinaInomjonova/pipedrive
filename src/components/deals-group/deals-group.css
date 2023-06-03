@@ -1,0 +1,61 @@
+.wrapper {
+    background: #F5F5F6;
+    margin-left: 74px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.deals-category {
+    border-bottom: 1px solid #DBDBDD;
+}
+.deals-category ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.deals-category ul .list-item {
+    width: 300px;
+    font-weight: bold;
+    font-size: 17px;
+    border-right: 1px solid #DBDBDD;
+    padding: 15px;
+}
+
+.deals {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    border: 1px solid #DBDBDD;
+    width: 210px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.deal-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.deal-info {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #65686F;
+}
+.deal-value {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.deal-value .MuiSvgIcon-root {
+    color: #65686F;
+    font-size: 17px !important;
+}
+.deal-value p {
+    margin: 0;
+    font-size: 14px;
+    color: #65686F;
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.sidebar{
+    background-color: #211C52;
+    height: 100vh;
+    flex: .02;
+    padding: 15px;
+    position: fixed;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-items {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.list-items:hover {
+    background: #6150E1;
+    border-radius: 5px;
+}
+.list-items .MuiSvgIcon-root {
+    color: #fff;
+    font-size: 26px;
+}

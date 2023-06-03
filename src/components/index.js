@@ -1,0 +1,9 @@
+export { default as App } from "./app/app";
+export { default as Sidebar } from "./sidebar/sidebar";
+export { default as Header } from "./header/header";
+export { default as Info } from "./info/info";
+export { default as Deal } from "./deal/deal";
+export { default as Main } from "./main/main";
+export { default as SingleDeal } from "./single-deal/single-deal";
+export { default as CreateDeal } from "./create-deal/create-deal";
+export { default as DealsGroup } from "./deals-group/deals-group";
