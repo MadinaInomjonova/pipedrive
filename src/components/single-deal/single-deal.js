@@ -1,13 +1,15 @@
+import { useParams } from "react-router-dom";
 import { Deal, Info, Main } from "../";
 
 import "./single-deal.css";
 
-const SingleDeal = () => {
+const SingleDeal = ({ data }) => {
+  const { id } = useParams();
   return (
     <div>
-      <Info />
+      <Info data={data} id={id} />
       <div className="content-body">
-        <Deal />
+        <Deal data={data} id={id} />
         <Main />
       </div>
     </div>

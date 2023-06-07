@@ -1,0 +1,134 @@
+.modal-background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+.modal-container {
+    height: 95vh;
+    width: 700px;
+    border: 1px solid #E0E0E1;
+    border-radius: 5px;
+    position: relative;
+    background-color: #fff;
+}
+
+.modal-container .title {
+    background-color: #F5F5F6;
+    padding: 18px;
+    border-bottom: 1px solid #E0E0E1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.title .MuiSvgIcon-root {
+    color: #696C73;
+    padding: 2px;
+}
+.title .MuiSvgIcon-root:hover {
+    background-color: #E4E4E5;
+    color: black;
+    border-radius: 5px;
+    transition: .3s all ease;
+}
+
+.modal-container .body {
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+}
+.modal-container .body label {
+    display: flex;
+    flex-direction: column;
+    color: #696C73;
+    margin-bottom: 25px;
+}
+.modal-container .body label input {
+    border: 1px solid #E0E0E1;
+    outline: none;
+    width: 240px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 8px;
+}
+.input-group input {
+    width: 100px !important;
+    margin-top: 0 !important;
+}
+.input-group p {
+    border: 1px solid #E0E0E1;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    margin: 0;
+}
+
+
+.modal-container .body div:nth-child(2) p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.modal-container .body div:nth-child(2) p::after {
+    content: "";
+    display: inline-block;
+    width: 188px;
+    border: 1px solid #E4E4E5;
+    margin-left: 10px;
+}
+.modal-container .body div:nth-child(2) input {
+    background: #F5F5F6;
+}
+
+.footer {
+    padding: 18px;
+    background-color: #E4E4E5;
+    border-top: 1px solid #E0E0E1;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 664px;
+}
+
+.footer button {
+    margin-right: 10px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.footer button:nth-child(1) {
+    background: #fff;
+    border: 1px solid #E0E0E1;
+}
+
+.footer button:nth-child(2) {
+    background: #2D8647;
+    border: 1px solid #2D8647;
+    color: #fff;
+}
+.footer button:nth-child(2):hover {
+    background-color: #077838;
+    transition: .3s all ease;
+}

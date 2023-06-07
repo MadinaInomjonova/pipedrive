@@ -7,3 +7,5 @@ export { default as Main } from "./main/main";
 export { default as SingleDeal } from "./single-deal/single-deal";
 export { default as CreateDeal } from "./create-deal/create-deal";
 export { default as DealsGroup } from "./deals-group/deals-group";
+export { default as Login } from "./login/login";
+export { default as Modal } from "./modal/modal";

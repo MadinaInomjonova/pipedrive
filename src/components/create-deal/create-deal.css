@@ -1,3 +1,6 @@
+.hide {
+    display: none;
+}
 .main-section {
     margin-left: 72px;
     padding: 20px;
@@ -46,5 +49,9 @@
 }
 .deal-btn .MuiSvgIcon-root {
     font-size: 17px !important;
+}
+.deal-btn:hover {
+    background-color: #077838;
+    transition: .3s all ease;
 }
 

@@ -1,7 +1,8 @@
 import { AccountCircleOutlined } from "@mui/icons-material";
 import "./deals-group.css";
+import { Link } from "react-router-dom";
 
-const DealsGroup = () => {
+const DealsGroup = ({ data }) => {
   return (
     <div className="wrapper">
       <div className="deals-category">
@@ -14,14 +15,22 @@ const DealsGroup = () => {
           <li className="list-item">Negotiations Started</li>
         </ul>
       </div>
-      <div className="deals">
-        <p className="deal-title">title</p>
-        <p className="deal-info">organization, contact person</p>
-        <div className="deal-value">
-          <AccountCircleOutlined />
-          <p>$400</p>
-        </div>
-      </div>
+      {data.map((item) => (
+        <Link to={`/deal/${item.id}`} key={item?.id}>
+          <div className="deals">
+            <p className="deal-title">{item?.title}</p>
+            {item?.org_name && item?.person_name && (
+              <p className="deal-info">
+                {item.org_name}, {item.person_name}
+              </p>
+            )}
+            <div className="deal-value">
+              <AccountCircleOutlined />
+              <p>{item?.formatted_value}</p>
+            </div>
+          </div>
+        </Link>
+      ))}
     </div>
   );
 };

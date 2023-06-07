@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 .wrapper {
     background: #F5F5F6;
     margin-left: 74px;
@@ -34,12 +39,13 @@
 }
 
 .deal-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin: 0;
+    padding-bottom: 5px;
 }
 .deal-info {
-    margin-top: 5px;
+    margin-top: 0;
     margin-bottom: 5px;
     font-size: 14px;
     color: #65686F;
